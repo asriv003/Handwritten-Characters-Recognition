@@ -23,7 +23,7 @@ Reporty for the project can be read from **_cs\_229\_project\_report.pdf_**
 4. **check_accuracy.py** :
 	It can be used to check the accuracy of the prediction made by the classifier. I am writing my prediction data to '**predicted_values.txt**'. So to check the accuracy you must pass the file name where true Y values are stored. I am by default using '**handwriting.data**' as correct true data file. I am also assuming that the first row will the true Y value and file will not have headers. This will just report the accuracy of the prediction by comparing with the true values. 
 
-Both **training.data**, **testing.data** and **trueY.data** should be in the same folder as the code. I have not tried giving path of the file as command line argument so I am not sure that will work or not.
+	Both **training.data**, **testing.data** and **trueY.data** should be in the same folder as the code. I have not tried giving path of the file as command line argument so I am not sure that will work or not.
 
 5. **tested** folder :
 	Multiple other machine learning methods implemented for testing purposes.
